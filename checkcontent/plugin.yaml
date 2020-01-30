@@ -1,0 +1,6 @@
+plugin:
+    name: 'webbook.checkcontent::lang.plugin.name'
+    description: 'webbook.checkcontent::lang.plugin.description'
+    author: Webbook
+    icon: oc-icon-info
+    homepage: 'webbook.page'
