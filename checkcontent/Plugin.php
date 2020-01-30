@@ -1,4 +1,4 @@
-<?php namespace Webbook\Checkcontent;
+<?php namespace WebBook\Checkcontent;
 
 use System\Classes\PluginBase;
 use Cms\Classes\Theme;
