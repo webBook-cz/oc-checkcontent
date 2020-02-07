@@ -3,4 +3,4 @@ plugin:
     description: 'webbook.checkcontent::lang.plugin.description'
     author: WebBook
     icon: oc-icon-info
-    homepage: 'webbook.page'
+    homepage: 'https://webbook.page/plugins'
