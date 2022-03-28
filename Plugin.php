@@ -13,6 +13,7 @@ class Plugin extends PluginBase
         return [
             'functions' => [
                 'content_exists' => [$this, 'contentExists'],
+                'partial_exists' => [$this, 'partialExists'],
                 'media_exists' => [$this, 'mediaExists'],
             ]
         ];

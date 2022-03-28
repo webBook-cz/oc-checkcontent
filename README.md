@@ -8,7 +8,7 @@ October CMS
 Prevent error log if choosing non-existing content file (and use :slug instead of content file name)
 
 ```twig
-{% if contentExists( this.param.slug ~ '.htm') %}
+{% if content_exists( this.param.slug ~ '.htm') %}
     {% content this.param.slug %}
 {% else %}
     {% content 'default' %}
@@ -17,10 +17,10 @@ Prevent error log if choosing non-existing content file (and use :slug instead o
 ## Partial file
 
 ```twig
-{% if partialExists( this.param.slug ~ '.htm') %}
-    {% content this.param.slug %}
+{% if partial_exists( this.param.slug ~ '.htm') %}
+    {% partial this.param.slug %}
 {% else %}
-    {% content 'default' %}
+    {% partial 'default' %}
 {% endif %}
 ```
 ## Media file
@@ -29,7 +29,7 @@ Check if media file is present in the media folder
 ```twig
 {% set img = 'gallery/' ~ 'image.png' %}
 
-{% if mediaExists( img ) %}
+{% if media_exists( img ) %}
     <img src="{{ img|media }}" alt="">
 {% else %}
     <p>no image found</p>
