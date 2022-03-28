@@ -26,7 +26,7 @@ class Plugin extends PluginBase
 
     public function partialExists($file = null)
     {
-        return file_exists(themes_path(Theme::getActiveThemeCode() . '/partial/' . $file));
+        return file_exists(themes_path(Theme::getActiveThemeCode() . '/partials/' . $file));
     }
 
     public function mediaExists($file = null)
