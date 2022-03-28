@@ -1,5 +1,5 @@
 {
-    "name": "webbook/Checkcontent-plugin",
+    "name": "webbook/checkcontent-plugin",
     "type": "october-plugin",
     "description": "Blog media image plugin for October CMS",
     "homepage": "https://octobercms.com/plugin/webbook-Checkcontent",
